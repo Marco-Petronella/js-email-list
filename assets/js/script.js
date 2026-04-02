@@ -10,4 +10,11 @@ Inserire un bottone che al click faccia il fetch altre 10 mail (sostituendo le a
 */
 
 const emailApi = "https://flynn.boolean.careers/exercises/api/random/mail";
+function getEmail() { fetch (emailApi) 
+    .then(response => response.json())
+    .then(emailData => {
+        console.log(emailData);
+        console.log(emailData.response);  
+    })
+}
 
