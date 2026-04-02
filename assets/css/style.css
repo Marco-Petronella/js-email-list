@@ -2,3 +2,23 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
+body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+button {
+    border-radius: 1em;
+    color: white;
+    background-color: blue;
+    padding: 0.5em;
+    margin: 1em;
+}
+ul {
+    border-color: blueviolet;
+    border: dotted;
+    border-radius: 1em;
+}
+li {
+    
+    color: blue;
+}

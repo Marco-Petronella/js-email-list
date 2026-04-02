@@ -24,7 +24,7 @@ function addLiElement(email) {
   liElement.innerHTML = email;
   listContainer.appendChild(liElement);
 }
-getEmail(2);
+getEmail(10);
 
 function getEmail(num) {
   for (let i = 0; i < num; i++) {
@@ -36,3 +36,10 @@ function getEmail(num) {
       });
   }
 }
+
+const addEmailButton = document.getElementById("email_button");
+
+addEmailButton.addEventListener("click", () => {
+ getEmail(10);
+ 
+})
